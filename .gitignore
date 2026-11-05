@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+downloads/
+.otoclip/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+yt-dlp[default]>=2026.10.26
+flask>=3.1
+waitress>=3.0
+segno>=1.6
+imageio-ffmpeg>=0.6
+# YouTube の署名解読に使う JavaScript ランタイム（Windows ARM 版は配布されていないため除外）
+deno>=2.5; sys_platform != "win32" or platform_machine != "ARM64"
